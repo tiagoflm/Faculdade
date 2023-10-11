@@ -1,13 +1,20 @@
 body {
-    background-color: lightblue;
+    background-size: cover;
+    background-image: url("fundo.jpg");
+    background-position: right top;
   }
   
   h1 {
-    color: navy;
-    margin-left: 20px;
+    font-family: cursive;
+    font-size: 40px;
+    color: darkgoldenrod;
+    margin: 50px;
   }
 
   li {
-    color: navy;
-    margin-left: 20px;
+    font-family: cursive;
+    font-size: 30px;
+    color: darkgoldenrod;
+    margin: 5%;
   }
+  
