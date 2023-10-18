@@ -15,6 +15,21 @@ a{
   width: 10%;
 }
 
+.qta1{
+  padding: 10px;
+  background-color: blue;
+}
+
+.qta2{
+  padding: 10px;
+  background-color: green;
+}
+
+.qta3{
+  padding: 10px;
+  background-color: red;
+}
+
 #imagem-convento{
   width: 50%;
   border-radius: 40px;
