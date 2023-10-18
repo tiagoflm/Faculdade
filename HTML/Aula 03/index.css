@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+h1{
+  font-family: 'Lobster', sans-serif;
+  color: lightblue;
+  font-size: 40px;
+  font-style: italic;
+}
+
+a{
+  margin: 5%;
+
+}
+.img{
+  width: 10%;
+}
+
+#imagem-convento{
+  width: 50%;
+  border-radius: 40px;
+}
+
+.main-conteudo{
+  text-align: center;
+}
+
+.header-conteiner{
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
