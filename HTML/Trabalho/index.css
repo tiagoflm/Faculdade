@@ -1,0 +1,65 @@
+/* Estilos para o corpo do documento */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #0057e7;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+main h1 {
+  font-size: 2em;
+}
+
+main h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.destaque {
+  margin-bottom: 20px;
+}
+
+.destaque img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #0057e7;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
