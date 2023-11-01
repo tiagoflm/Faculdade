@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id ='resposta' style="background-color: aqua;" onmousemove="escreveNome()" onclick="Adeus()">'Usuário sem javascript verão isso.</div>
+    <br>
+
+    <div id = 'exemplo' style="background-color: rgb(166, 0, 255);"> 'Teste com fundo' </div>
+
+    <br>
+
+    <div id = 'exemplo2' style="background-color: rgb(136, 255, 0);"> 'Teste com fundo 2' </div>
+
+    <br>
+    <button id="Alerta" onclick="CapuraResposta()">"Alerta"</button>
+
+    <br>
+    <br>
+
+    <input id="inputUsuario" size="60"> <button  onclick="enviaResposta()">Enviar</button> <br>
+
+    <script type="text/JavaScript">
+        
+        function Adeus() { 
+            document.getElementById('resposta').innerHTML = 'Olá Mundo Javascript!';
+        }
+        function CapuraResposta() { 
+	        var IU = document.getElementById('resposta').innerHTML; 
+    	    window.alert('O Conteudo da mensagem é ' + IU);
+        }
+
+        function enviaResposta() {
+            var IU = document.getElementById('inputUsuario').value; 
+    	    window.alert('Foi digitado ' + IU);
+        }
+
+        function escreveNome() { 
+            document.getElementById('exemplo').outerHTML = "<b> UVV é top </b>"
+            document.getElementById('exemplo2').innerHTML = "<b> UVV é top </b>"
+        }
+        </script>  
+    
+</body>
+</html>

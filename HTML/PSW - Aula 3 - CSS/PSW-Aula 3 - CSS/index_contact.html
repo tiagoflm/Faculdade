@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!--Link para Folha de Estilo CSS-->
+    <link rel="stylesheet" href="index.css">
+
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster"> -->
+    <title>LifeStyle Capixaba</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-conteiner">
+        <div class="header-conteudo">
+          <h1>LifeStyle <span class="capixaba">Capixaba</span></h1>
+          <nav>
+            <a href="./index.html">LifeStyle</a>
+            <a href="#">Arte</a>
+            <a href="#">Cultura</a>
+            <a href="./index_contact.html">Contate-nos</a>
+          </nav>
+        </div>
+      </div>
+      <hr>
+    </header>
+
+    <main>
+      <div class="main-conteiner">
+        <div class="main-conteudo">
+          <form action="script.php" method="get">
+            <div >
+              <label for="Nome">Nome:</label>
+              <input type="text" name="Nome" placeholder="Escreva seu nome">
+            </div>
+            <div >
+              <label for="Passwords">Senha:</label>
+              <input type="password" name="password" placeholder="Senha" required>
+            </div>
+            <div >
+              <label for="email">Email:</label>
+              <input type="email" name="email" placeholder="examplo@ead.br">
+            </div>
+            <div >
+              <label for="telefone">Telefone:</label>
+              <input type="tel" name="telefone" placeholder="33333333">
+            </div>
+            <div >
+              <label for="date">Data:</label>
+              <input type="date" name="date">
+            </div>
+            <div >
+              <label for="number">Quantidade:</label>
+              <input type="number" name="number" min="0" max="100" value="1">
+            </div>
+            <div >
+              <select name="cidade">
+                <option value="">Vila Velha</option>
+                <option value="">Vitoria</option>
+                <option value="">Serra</option>
+              </select>
+            </div>
+
+            <div >
+              <input type="reset">
+              <input type="submit">
+            </div>
+          </form>
+
+        </div>
+      </div>
+      <hr>
+    </main>
+
+    <footer>
+      <div class="footer-principal">
+        <div class="footer-conteudo">
+          <h5>Informações</h5>
+          <ul>
+            <li><a href="#">LifeStyle Capixaba</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contate-nos</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

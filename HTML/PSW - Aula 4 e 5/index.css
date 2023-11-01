@@ -1,0 +1,89 @@
+/*
+Folha de Estilo site
+LifeStyle Capixaba
+*/
+
+*{
+  background-color: white;
+}
+h1{
+  display: inline;
+}
+h2{
+  display:inline ;
+}
+
+/*
+h1,h2{
+  display: inline;
+  font-family: Lobster;
+  color: lightblue;
+  font-size: 40px;
+  font-style: italic;
+}*/
+
+a{
+  margin: 10px;
+}
+
+a:hover{
+  opacity: 50%;
+}
+
+.capixaba{
+  color: Pink;
+}
+
+
+.header-conteudo{
+  text-align: center;
+}
+
+.main-conteudo{
+  text-align: center;
+}
+
+.qta {
+  padding: 10px;
+  background-color: blue;
+}
+
+.main-conteiner{
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
+#imagem-convento{
+  width: 90%;
+  border-radius: 20px;
+}
+
+
+
+/* Ancoras e Forms */
+a{
+  text-decoration: none;
+}
+
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: red;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+a:active{
+  color: green;
+}
+
+
+
+/*
+EOF
+*/
