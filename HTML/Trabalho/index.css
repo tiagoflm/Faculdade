@@ -1,19 +1,17 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-color: #476088c4;
+  color: #4500e7;
   margin: 0;
   padding: 0;
 }
 
+p { color: #4500e7 }
+
 header {
   background-color: #0057e7;
-  color: #ffffff;
+  color: #bb3e3e;
   padding: 10px 20px;
-}
-
-header nav ul {
-  list-style-type: none;
-  padding: 0;
 }
 
 header nav ul li {
@@ -39,15 +37,6 @@ main h1 {
 main h2 {
   font-size: 1.5em;
   margin-top: 20px;
-}
-
-.destaque {
-  margin-bottom: 20px;
-}
-
-.destaque img {
-  max-width: 100%;
-  height: auto;
 }
 
 footer {
